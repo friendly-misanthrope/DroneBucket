@@ -1,0 +1,19 @@
+.photo-form {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  background-color: lightgray;
+  border-radius: 0.5rem;
+  max-width: 32rem;
+  margin: 2% auto 0;
+  padding: 1rem;
+}
+
+.img-input {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+}

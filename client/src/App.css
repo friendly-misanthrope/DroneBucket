@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+  background-color: rgb(175, 175, 175);
+  min-height: 100vh;
+}
+
+header {
+  background-color: black;
+  height: 7rem;
+  color: lightgray;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-links .btn {
+  margin: 0 0.5rem;
+}
