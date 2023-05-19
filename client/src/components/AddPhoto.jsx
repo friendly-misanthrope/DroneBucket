@@ -64,7 +64,7 @@ const AddPhoto = () => {
               <div className="form-group img-input">
                 <label htmlFor="photo-upload">Photo:</label>
                 <input type="file"
-                accept="image"
+                accept="image/*"
                 onChange={handleImage} />
               </div>
               <input type="submit" value="Submit Photo" className="btn btn-primary" />
