@@ -22,7 +22,7 @@ const AddPhoto = () => {
   }
 
   const onChangeHandler = (e) => {
-    setOnePhoto(prevState => ({...prevState, [e.target.name] : e.target.value}))
+    setOnePhoto(prevState => ({...prevState, [e.target.name]: e.target.value}))
   }
 
   const handleImage = (e) => {
@@ -32,6 +32,7 @@ const AddPhoto = () => {
   const submitHandler = (e) => {
     e.preventDefault()
     // TODO: Finish form submission logic (Nick)
+    // Axios POST request here
   }
 
   return (
