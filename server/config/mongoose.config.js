@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://127.0.0.1:27017/DroneBucket', {
+mongoose.connect('mongodb://192.168.1.3:27017/DroneBucket', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
